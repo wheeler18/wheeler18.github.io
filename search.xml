@@ -3,6 +3,6 @@
   <entry>
     <title><![CDATA[hexo TIPS]]></title>
     <url>%2F2019%2F07%2F07%2Fhexo-TIPS%2F</url>
-    <content type="text"><![CDATA[hexo 3.X 在Source同级目录下新建scripts文件夹，并建立文件run.js, 添加如下代码12345var spawn = require(&apos;child_process&apos;).exec;hexo.on(&apos;new&apos;, function(data)&#123; spawn(&apos;start &quot;C:\\Program Files\\Sublime Text 3\\sublime_text.exe&quot; &apos; + data.path);&#125;);]]></content>
+    <content type="text"><![CDATA[自动脚本*** hexo 3.X 在Source同级目录下新建scripts文件夹，并建立文件run.js, 添加如下代码 1234var spawn = require(&apos;child_process&apos;).exec;hexo.on(&apos;new&apos;, function(data)&#123; spawn(&apos;start &quot;C:\\Program Files\\Sublime Text 3\\sublime_text.exe&quot; &apos; + data.path);&#125;);]]></content>
   </entry>
 </search>
